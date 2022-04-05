@@ -1,19 +1,10 @@
 package rappi;
 
-
-
 public class ExamRappi {
-
 	public static void main(String[] args) {
-
-
 		System.out.println(Encrypter.getEncryptedName("Kate0 Winslet"));
-		
-
 	}
-
 }
-
 
 class Encrypter{
     public static String getEncryptedName(String name){
@@ -34,9 +25,7 @@ class Encrypter{
 	    }  
 	    return strValueReverse;  
 	}  
-    
 }
-
 
 class Validator {
     public boolean validate(String name) {
